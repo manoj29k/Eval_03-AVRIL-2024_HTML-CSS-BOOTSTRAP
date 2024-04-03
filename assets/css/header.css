@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* header>nav{
+     margin: 10px; 
+} */
+
+body{
+    background: greenyellow;
+}
+
+header >:first-child > div > a > img{
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    
+}
+
+header > :first-child > div > :first-child{
+    color: grey;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+
+

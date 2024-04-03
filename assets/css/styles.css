@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 main> :first-child{
     top: 0;
     left: 0;
@@ -29,20 +26,23 @@ p{
     text-align: center;  
 }
 hr{
-
     height: 5px;
     background: grey;
-   
 }
 
 article>:first-child {
     height: 150px;
-    padding: 25px;
-   
+    padding: 15px;
 }
 
 section>:nth-child(3){
     text-align: center;
-    padding: 20px;
+    padding-bottom: 40px;
+} 
+
+section>:nth-child(3) > a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: rgb(77, 57, 57) ;
 }
 

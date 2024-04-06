@@ -35,14 +35,58 @@ article>:first-child {
     padding: 15px;
 }
 
-section>:nth-child(3){
+.brands{
     text-align: center;
     padding-bottom: 40px;
 } 
 
-section>:nth-child(3) > a{
-    padding-top: 20px;
-    text-decoration: none;
-    color: rgb(77, 57, 57) ;
+main>:first-child>section{
+    height: 200px;
+    width: 700px;
+    display: flex;
+    gap: 50px;
+    
+}
+main>:first-child>section >:first-child{
+    height: 200px;
+    width: 450px;
+
+    
+}
+main>:first-child>section >:nth-child(2){
+    height: 200px;
+    width: 450px;
+    
+}
+main>:first-child>section >:nth-child(3){
+    height: 200px;
+    width: 450px;
+    
 }
 
+@media screen and (max-width:600px){
+    main>:first-child>section{
+        height: 200px;
+        width: 450px;
+        display: flex;
+        gap: 50px;
+        
+    }
+    main>:first-child>section >:first-child{
+        height: 200px;
+        width: 650px;
+    
+        
+    }
+    main>:first-child>section >:nth-child(2){
+        display: none;
+        height: 200px;
+        width: 450px;
+        
+    }
+    main>:first-child>section >:nth-child(3){
+        height: 200px;
+        width: 650px;
+        
+    }
+}
